@@ -1,0 +1,43 @@
+*.class
+*.log
+build.sbt
+*.iml
+package
+logs/
+develop.properties
+application.conf
+
+node_modules/
+output/
+twirl/
+bower_components/
+digitalWallet/src/main/less/main.css
+merchant/src/main/less/main.css
+src/main/webapp/assets/vendors/
+src/main/webapp/resources/css/
+src/main/webapp/resources/js/
+digitalWallet/src/main/webapp/assets/vendors/
+digitalWallet/src/main/webapp/resources/css/
+digitalWallet/src/main/webapp/resources/js/
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.classpath
+.project
+.cache
+.settings
+
+# IntelliJ specific
+.idea/
+.idea_modules/
+
+eams_api.properties
+
